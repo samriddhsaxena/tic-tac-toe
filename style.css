@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #D1B490;
+}
+
+h1{
+    text-align: center;
+    margin-left: 75px;
+    margin-top: 50px;
+    font-size: 50px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    margin-left: 19%;
+    margin-top: 10px;
+}
+
+#btn{
+    height: 80px;
+    width: 80px;
+    margin-right: 8px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    background-color: #ffffc7;
+    color: red;
+    font-size: 36px;
+    border: none;
+    cursor: pointer;
+}
+
+.btnContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#reset{
+    font-size: 24px;
+    height: 40px;
+    margin-top: 37px;
+    margin-bottom: 30px;
+    width: 100px;
+    border-radius: 10px;
+    margin-left: 52%;
+    margin-right: 15px;
+}
+#winLose{
+    text-align: center;
+    margin-left: 31%;
+    font-size: 32px;
+}
+.tictactoe{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#congrats{
+    margin-top: 200px;
+}
